@@ -183,7 +183,16 @@ body {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   text-align: center;
-
+  animation: fade 3s ;
+  -webkit-animation: fade 3s ;
+}
+@keyframes fade{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity:1 ;
+  }
 }
 .landing .intro-text h2 {
   margin: 0;
@@ -193,7 +202,11 @@ body {
   width: 320px;
   max-width: 100%;
   background-color: var(--main-color);
-  border-radius:10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 .landing .intro-text p {
   font-size: 50px;
@@ -201,7 +214,11 @@ body {
   color: white;
   font-weight: bold;
   background-color: var(--main-color);
-  border-radius:10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 /*end Landing page*/

@@ -166,6 +166,12 @@ body {
 /*End Header*/
 
 /*STart Landing page*/
+.landing{
+  background-image: url(../images/cover.jpg);
+    background-size: cover;
+    height: calc(100vh - 112px);
+    position: relative;
+}
 
 .landing .intro-text {
   position: absolute;

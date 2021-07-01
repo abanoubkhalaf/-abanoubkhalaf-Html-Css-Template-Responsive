@@ -193,6 +193,7 @@ body {
   width: 320px;
   max-width: 100%;
   background-color: var(--main-color);
+  border-radius:10px;
 }
 .landing .intro-text p {
   font-size: 50px;
@@ -200,6 +201,7 @@ body {
   color: white;
   font-weight: bold;
   background-color: var(--main-color);
+  border-radius:10px;
 }
 
 /*end Landing page*/

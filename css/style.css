@@ -32,17 +32,17 @@ body {
 
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 80%;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 80%;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 80%;
   }
 }
 /*End Global rules*/
@@ -89,14 +89,12 @@ body {
   position: relative;
   z-index: 1;
 }
-.header .links:hover .icon span:nth-child(2) {
-  width: 100%;
-}
 .header .links .icon {
   width: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
+  cursor: pointer;
 }
 .header .links .icon span {
   background-color: var(--third-color);
@@ -137,11 +135,11 @@ body {
 .header .links ul ::before {
   content: "";
   position: absolute;
-  border-width: 10px;
+  border-width: 6px;
   border-style: solid;
   border-color: transparent transparent var(--main-color) transparent;
   right: 5px;
-  top: -23px;
+  top: -14px;
 }
 
 .header .links ul li a {
@@ -155,6 +153,7 @@ body {
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
   color: white;
+  cursor: pointer;
 }
 
 .header .links ul li a:hover {
@@ -166,11 +165,11 @@ body {
 /*End Header*/
 
 /*STart Landing page*/
-.landing{
+.landing {
   background-image: url(../images/cover.jpg);
-    background-size: cover;
-    height: calc(100vh - 112px);
-    position: relative;
+  background-size: cover;
+  height: calc(100vh - 112px);
+  position: relative;
 }
 
 .landing .intro-text {
@@ -183,15 +182,15 @@ body {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   text-align: center;
-  animation: fade 3s ;
-  -webkit-animation: fade 3s ;
+  animation: fade 3s;
+  -webkit-animation: fade 3s;
 }
-@keyframes fade{
-  0%{
+@keyframes fade {
+  0% {
     opacity: 0;
   }
-  100%{
-    opacity:1 ;
+  100% {
+    opacity: 1;
   }
 }
 .landing .intro-text h2 {
